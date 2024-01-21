@@ -15,7 +15,7 @@ Você foi contratado para construir um sistema para um estacionamento, que será
 
 ## Proposta
 O Sistema de Estacionamento foi atualizado seguindo o diagrama abaixo:
-![Diagrama de sistema estacionamento]("https://imgur.com/IYlGr3E")
+![Diagrama de sistema estacionamento](https://github.com/samahraOliveira/trilha-net-fundamentos-desafio/blob/main/Diagrama%20UML.jpeg?raw=true)
 
 A classe principal contém 4 propriedades: Preço Inicial, Preço por Hora, Veículos Carro (lista) e Veículos Moto (lista).
 Os métodos implementados são os seguintes:

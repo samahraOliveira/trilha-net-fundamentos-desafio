@@ -15,21 +15,21 @@ Você foi contratado para construir um sistema para um estacionamento, que será
 
 ## Proposta
 O Sistema de Estacionamento foi atualizado seguindo o diagrama abaixo:
-![Diagrama de sistema estacionamento](Diagrama UML.jpeg)
+![Diagrama de sistema estacionamento]("https://imgur.com/IYlGr3E")
 
 A classe principal contém 4 propriedades: Preço Inicial, Preço por Hora, Veículos Carro (lista) e Veículos Moto (lista).
 Os métodos implementados são os seguintes:
-### Cadastrar Veículo
+#### Cadastrar Veículo
 O método CadastrarVeiculo() permite ao usuário cadastrar um veículo no estacionamento. Ele verifica se o estacionamento está aberto, se há vagas disponíveis e valida a placa do veículo.
-### Remover Veículo
+#### Remover Veículo
 O método RemoverVeiculo() remove um veículo do estacionamento. Calcula o tempo total de estacionamento e o valor a ser pago com base no horário de entrada.
-### Listar Veículos
+#### Listar Veículos
 O método ListarVeiculos() exibe a lista de veículos estacionados no momento.
-### Verificar Estacionamento Aberto
+#### Verificar Estacionamento Aberto
 O método VerificarEstacionamentoAberto() verifica se o estacionamento está aberto com base no horário atual.
-### Validar Placa
+#### Validar Placa
 O método ValidarPlaca() utiliza a classe ValidacaoPlaca para validar o formato da placa do veículo.
-### Identificar Tipo de Veículo
+#### Identificar Tipo de Veículo
 O método IdentificarTipoVeiculo() solicita ao usuário que informe se o veículo a ser estacionado é um carro ou moto.
 
 ## Requisitos

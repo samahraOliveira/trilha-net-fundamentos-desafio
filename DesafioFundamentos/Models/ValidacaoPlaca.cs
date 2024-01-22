@@ -24,12 +24,12 @@ namespace DesafioFundamentos.Models
 
             if (char.IsLetter(placa, 4))
             {
-                var padraoMercosul = new Regex("[a-zA-Z]{3}[0-9]{1}[a-zA-Z]{1}[0-9]{2}");
+                Regex padraoMercosul = new Regex("[a-zA-Z]{3}[0-9]{1}[a-zA-Z]{1}[0-9]{2}");
                 return padraoMercosul.IsMatch(placa);
             }
             else
             {
-                var padraoNormal = new Regex("[a-zA-Z]{3}[0-9]{4}");
+                Regex padraoNormal = new Regex("[a-zA-Z]{3}[0-9]{4}");
                 return padraoNormal.IsMatch(placa);
             }
         }
